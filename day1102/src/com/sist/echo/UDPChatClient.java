@@ -128,8 +128,8 @@ public class UDPChatClient extends JFrame implements ActionListener{
 			//그래서 이 문자열을 byte[] 배열로 만들어야 함
 			byte []data = msg.getBytes();
 			
-			//192.168.35.67 목적지의 주소를 갖는 InetAddress
-			InetAddress addr = InetAddress.getByName("192.168.35.67");
+			//localhost(ip주소) 목적지의 주소를 갖는 InetAddress
+			InetAddress addr = InetAddress.getByName("localhost");
 			
 			int port = 9005;
 			
